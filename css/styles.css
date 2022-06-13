@@ -321,17 +321,16 @@ letter-spacing: 0.03em;
   height: 70px;
   position: absolute;
   bottom: 0;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
 }
 
 .work-subtitle {
-  padding-top: 27px;
-  padding-bottom: 27px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-align: center;
   text-transform: uppercase;
 
   color: var(--primary-white-color);
@@ -667,7 +666,7 @@ letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform var(--transition-duration-timing);
 }
 
